@@ -1,17 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import GifExpertApp from './GifExpertApp';
 import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
+ReactDOM.render(<GifExpertApp />, document.getElementById('root'));
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+/* Ultimo video que vi C.69 -> https://www.udemy.com/course/react-cero-experto/learn/lecture/19751398#questions/13223762 */
+
+//Documentacion para esta app -> https://es.reactjs.org/docs/faq-structure.html
+//Documentacion de directorios -> https://hackernoon.com/structuring-projects-and-naming-components-in-react-1261b6e18d76
