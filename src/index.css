@@ -3,14 +3,7 @@
 }
 
 body {
-  padding: 60px;
-}
-
-input {
-  width: 100%;
-  font-size: 1.2rem;
-  color: grey;
-  outline: none;
+  margin: 0;
 }
 
 .card-grid {
@@ -34,4 +27,29 @@ input {
 
 .card img {
   max-height: 170px;
+}
+
+.navBar {
+  display: flex;
+  align-items: center;
+  background-color: rgb(32, 32, 32);
+  color: white;
+  padding: 10px 30px;
+}
+
+input {
+  width: 300px;
+  height: 25px;
+  border-radius: 50px;
+  border: none;
+  outline: none;
+  padding: 0 12px;
+}
+
+.navBar > div {
+  margin: 0 10px;
+}
+
+.navBar h1 {
+  margin: 0;
 }

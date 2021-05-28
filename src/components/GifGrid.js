@@ -1,5 +1,4 @@
-// https://developers.giphy.com/docs/api/endpoint/#search ==>  api.giphy.com/v1/gifs/search
-//https://developers.giphy.com/dashboard/ ==> fHXyXDuaudwi8K0Cb9MpmJ5ibYWx1QY0
+
 import React from 'react'; //rafc
 import { useFetchGifs } from '../hooks/useFetchGif';
 // import { getGifs } from '../helpers/getGifs';
