@@ -31,5 +31,5 @@ Pantalla completa
 • Desde el repositorio de tu proyecto en la consola escribes -> npm run build <- Esto lo que hara es crear una carpeta y esta carpeta es la
 que contendra todos los archivios de tu proyecto esta es la que subiremos a gitHub, dentro hay un index si lo abres no fucnionara por que necesitas de un servidor
 para que funcione la app, para poder probar tu app desde la conosola escribe o instala esto -> npm install --global http-server <- Luego entras a la carpeta llamda build y desde ally escribes -> http-server -o  <- 
-esto lo que hara es crear un servidor y abrir tu app para que la puedas abrir y la puedas ver
+esto lo que hara es crear un servidor y abrir tu app para que la puedas abrir y la puedas ver, luego renombre la carpeta llamada build a "docs" esto se necesaio para poder subir la app a gitHub
 ========================= *FIN COMO DESPLEAR UNA APP EN GITHUB PAGES ====================
